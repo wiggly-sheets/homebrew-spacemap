@@ -2,8 +2,8 @@ cask "spacemap" do
   arch = on_arch_conditional arm: "arm64", intel: "x86_64"
 
   version "1.0.2"
-  sha256 arm:   "78c3644217b7fa61b92bea9a6b39cbace691ddf42319667da043ff9f9e00e57d",
-         intel: "4e35ffad7acad3d77575f66cdb9132173b226f503b88cee30ba1aaaac045ac3d"
+  sha256 arm:   "ad72bc9d1e6d4eb45fcd7c8920626a82e1117a68fdad470f8725208adb0620bf",
+         intel: "83d0f9e14335ac458f2a71fef1672e1b5366459da9eb0e7552e04bd84f19513b"
 
   url "https://github.com/wiggly-sheets/spacemap/releases/download/v#{version}/spacemap-#{version}-#{arch}.dmg"
   name "spacemap"
