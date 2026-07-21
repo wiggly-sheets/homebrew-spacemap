@@ -10,7 +10,7 @@ cask "spacemap" do
   desc "Yabai workspace visualizer"
   homepage "https://github.com/wiggly-sheets/spacemap"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "spacemap.app"
 
