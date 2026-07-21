@@ -12,7 +12,7 @@ cask "spacemap" do
 
   depends_on macos: :ventura
 
-  app "spacemap-#{arch}.app"
+  app "spacemap.app"
 
   zap trash: [
     "~/Library/Preferences/com.spacemap.plist",
