@@ -2,17 +2,17 @@ cask "spacemap" do
   arch = on_arch_conditional arm: "arm64", intel: "x86_64"
 
   version "1.0.10"
-  sha256 arm:   "3ed84590a3f7605423c4170c7fc8b357432090d77451f12ab18dc62901b4a7b3",
-         intel: "2e4d2c2dda1b93c67d81c78b11e003fd31c01fa26b8e65db5d72beb01e81bf63"
+  sha256 arm:   "7326c49e7a3fccd3abf59e376f7338a98b540edb7f801eb10cdcf547d5dfa9c1",
+         intel: "a4ace6a63ef6c6b82c90e6634b6ff638643b1aeb93cff8d39ce909317a2bec02"
 
-  url "https://github.com/wiggly-sheets/spacemap/releases/download/v#{version}/spacemap-#{version}-#{arch}.dmg"
+  url "https://github.com/wiggly-sheets/Spacemap/releases/download/v#{version}/spacemap-#{version}-#{arch}.dmg"
   name "spacemap"
   desc "Yabai workspace visualizer"
-  homepage "https://github.com/wiggly-sheets/spacemap"
+  homepage "https://github.com/wiggly-sheets/Spacemap"
 
   depends_on macos: :ventura
 
-  app "spacemap.app"
+  app "Spacemap.app"
 
   zap trash: [
     "~/Library/Preferences/com.spacemap.plist",
